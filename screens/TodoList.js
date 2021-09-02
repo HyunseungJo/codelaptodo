@@ -1,5 +1,5 @@
 import React,{useCallback, useEffect, useState} from 'react';
-import { FlatList,StyleSheet, Text, View , SafeAreaView, Platform, TextInput, Button, Alert} from 'react-native';
+import { FlatList,StyleSheet, TextInput, Button} from 'react-native';
 import TodoItem from '../components/TodoItem';
 import Row from "../components/Row"
 import Padding from "../components/Padding"
